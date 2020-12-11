@@ -1,0 +1,27 @@
+{
+  "name": "testcafe-cucumber-tests-example",
+  "version": "1.0.0",
+  "description": "A collection of end-to-end (e2e) tests to showcase TestCafe with Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "PO_FOLDER_PATH='tests/page-model,centralized-page-model' node_modules/.bin/gherkin-testcafe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Marketionist/testcafe-cucumber-tests-example"
+  },
+  "keywords": [
+    "cucumber tests example",
+    "testcafe with cucumber",
+    "cucumber with testcafe",
+    "testcafe cucumber tests example"
+  ],
+  "author": "Dmytro Shpakovskyi",
+  "license": "MIT",
+  "devDependencies": {
+    "cucumber": "^6.0.5",
+    "gherkin-testcafe": "^2.5.2",
+    "testcafe": "^1.9.4",
+    "testcafe-cucumber-steps": "^1.16.0"
+  }
+}
