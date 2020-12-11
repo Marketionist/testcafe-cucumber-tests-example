@@ -13,7 +13,6 @@ Feature: Running Cucumber with TestCafe - test feature example 2
 
   Examples:
     | pageName        | link               | words                         |
-    # | About           | linkAbout          | About Google                  |
     | Our products    | linkOurProducts    | Products & Services - Google  |
     | Our commitments | linkOurCommitments | Values & Commitments - Google |
     | Our stories     | linkOurStories     | Stories of Google             |

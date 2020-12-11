@@ -4,7 +4,8 @@
   "description": "A collection of end-to-end (e2e) tests to showcase TestCafe with Cucumber",
   "main": "index.js",
   "scripts": {
-    "test": "PO_FOLDER_PATH='tests/page-model,centralized-page-model' node_modules/.bin/gherkin-testcafe"
+    "test": "PO_FOLDER_PATH='tests/page-model,centralized-page-model' node_modules/.bin/gherkin-testcafe",
+    "test-pure-testcafe": "node_modules/.bin/testcafe tests/test-example.js"
   },
   "repository": {
     "type": "git",
